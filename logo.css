@@ -1,1 +1,124 @@
+div {margin: o; padding: 0;}
+div div  {background: #A4CA39; position: relative;}
+
+.logo{
+	height: 404px; width: 334px;
+	margin-left: 400px;
+	margin-top: 0px;
+	
+}
+.bodylo
+{
+	height:220px;
+	width:220px;
+	margin-top: 10px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	margin-left: 170px;
+}
+.rightarm
+{
+	height:150px;
+	width:50px;
+	margin-left:110px;
+	margin-top: -220px;
+	border-radius: 50px;
+	
+
+}
+.leftarm
+{
+	height:150px;
+	width:50px;
+	margin-left:400px;
+	margin-top: -150px;
+	border-radius: 50px;
+
+}
+
+.leftleg
+{
+	height:150px;
+	width:50px;
+	margin-left:210px;
+	margin-top: -150px;
+	border-radius: 50px;
+}
+.rightleg
+{
+	height:150px;
+	width:50px;
+	margin-left:300px;
+	margin-top: -10px;
+	border-radius: 50px;
+}
+
+.face
+{
+	height:100px;
+	width:220px;
+	margin-top:150px;
+	margin-left: 170px;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
+}
+.righteyes
+{
+	background-color: white;
+	height:20px;
+	width:20px;
+	margin-top: 30px;
+	margin-left:50px;
+	position: absolute;
+	z-index: 1;
+	border-radius: 50px;
+}
+.lefteyes
+{
+	background-color: white;
+	height:20px;
+	width:20px;
+	margin-top: 30px;
+	margin-left:150px;
+	position: absolute;
+	z-index: 1;
+	border-radius: 50px;
+}
+.lefthorn
+{
+	height:100px;
+	width:8px;
+	margin-top: -60px;
+	margin-left:50px;
+	position: absolute;
+	transform: rotate(150deg);
+	border-radius: 50px;
+
+}
+.righthorn
+{
+	height:100px;
+	width:8px;
+	margin-top: -60px;
+	margin-left:150px;
+	position: absolute;
+	transform: rotate(30deg);
+	border-radius: 50px;
+}
+.rightarm:hover
+{
+	transform: rotate(10deg);
+	transition-duration: 0s;
+	
+}
+.leftarm:hover
+{
+	transform: rotate(170deg);
+	transition-duration: 0s;
+
+}
+.face:hover
+{
+	transform: rotate(-5deg);
+}
 
